@@ -3,39 +3,34 @@ body {
   margin: 0;
 }
 
-#header {
-  width: 300px;
-  height: 100px;
-  background-color: blue;
-  margin: 0 auto;
-}
-
-#footer {
-  width: 300px;
-  height: 100px;
-  background-color: black;
-  margin: 0 auto;
-}
-
-.important {
-  width: 300px;
-  height: 100px;
-  background-color: red;
-  margin: 0 auto;
-}
-
-.interesting {
-  width: 300px;
-  height: 100px;
-  background-color: green;
-  margin: 0 auto;
-}
-
+#header,
+#footer,
+.important,
+.interesting,
 .surprising {
   width: 300px;
   height: 100px;
-  background-color: orange;
   margin: 0 auto;
+}
+
+#header {
+  background-color: blue;
+}
+
+#footer {
+  background-color: black;
+}
+
+.important {
+  background-color: red;
+}
+
+.interesting {
+  background-color: green;
+}
+
+.surprising {
+  background-color: orange;
 }
 
 .important:hover,
