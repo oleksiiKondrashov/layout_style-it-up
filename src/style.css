@@ -40,6 +40,8 @@ body {
 
 .important:hover,
 .interesting:hover,
-.surprising:hover {
+.surprising:hover,
+#header:hover,
+#footer:hover {
   height: 200px;
 }
